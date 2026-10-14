@@ -85,19 +85,20 @@ footer div a{
     color: #C8D5B9;
 }
 
+/* Navigation
+------------------------------------*/
+nav {
+    background-color: #8FC0A9;
+}
+nav a {
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    
+}
+
 /* Work Experience
 ------------------------------------*/
-/* #work-exp {
-    padding: 50px;
-    
-} */
-.job {
-    display: grid;
-    column-gap: 50px;
-    padding: 20px;
-    grid-template-columns: 20dvw  50dvw;
-    place-content: center;
-}
 
 
 /* Education
@@ -105,13 +106,6 @@ footer div a{
 #education {
     background: #68B0AB;
     color: white;
-}
-.school {
-    display: grid;
-    column-gap: 50px;
-    padding: 20px;
-    grid-template-columns: 20dvw  50dvw;
-    place-content: center;
 }
 
 /* Images 
