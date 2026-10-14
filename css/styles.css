@@ -84,17 +84,26 @@ header p {
 footer div a{
     color: #C8D5B9;
 }
+/* footer .cotact-info a i {
+    font-size: 4000px;
+} */
 
 /* Navigation
 ------------------------------------*/
-nav {
+.centered-nav {
     background-color: #8FC0A9;
+    text-align: center;
+    position: sticky;
+    top: 0;
 }
 nav a {
     display: inline-block;
     padding: 14px;
     text-decoration: none;
-    
+    color: black;
+}
+nav a:hover {
+    background-color: #C8D5B9;
 }
 
 /* Work Experience
@@ -104,12 +113,17 @@ nav a {
 /* Education
 ------------------------------------*/
 #education {
-    background: #68B0AB;
     color: white;
+}
+#education .content-wrap {
+    background-color: rgba(104, 176, 171, 0.75);
 }
 
 /* Images 
 ------------------------------------*/
 .profile-img {
     border-radius: 50%;
+}
+.image-bg {
+    background-image: url('../images/CSUN-campus.jpg');
 }

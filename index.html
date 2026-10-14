@@ -6,7 +6,11 @@
     <!-- Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kode+Mono:wght@400..700&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kode+Mono:wght@400..700&family=VT323&display=swap" rel="stylesheet">
+    
+    <!-- icon link -->
+    <script src="https://kit.fontawesome.com/d74c52e596.js" crossorigin="anonymous"></script>
+    
     <!-- Stylesheet -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Sebastian Sandoval | Resume</title>
@@ -14,16 +18,16 @@
 
 <body>
     <!-- Navigation -->
-    <nav>
-        <a href="#">About</a>
-        <a href="#">Experience</a>
-        <a href="#">Education</a>
-        <a href="#">Contact</a>
-        <a href="#">Download PDF</a>
+    <nav class="centered-nav">
+        <a href="#about">About</a>
+        <a href="#work">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#info">Contact</a>
+        <a href="assets/Sebastian-Sandoval_Resume.pdf" download="Sebastian-Sandoval_Resume.pdf">Download PDF</a>
     </nav>
     <!-- // Intro -->
     <header>
-        <div class="content-wrap">
+        <div class="content-wrap" id="about">
             <img class="profile-img column-narrow" src="images/sebs.jpg" alt="Sebastian S.">
             <div class="column-wide">
                 <h1>Sebastian Sandoval</h1>
@@ -35,7 +39,7 @@
     
     <main> 
         <!-- // Work Experience -->
-        <section>
+        <section id="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
                 <div>
@@ -113,36 +117,38 @@
 
         <!-- // Education -->
         <section id="education">
-            <div class="content-wrap">
-                <h2>Education</h2>
-                
-                <div>
-                    <div class="column-narrow">
-                        <h3>California State University Northridge, <br>2023 - 2027</h3>
+            <div class="image-bg">
+                <div class="content-wrap">
+                    <h2>Education</h2>
+                    
+                    <div>
+                        <div class="column-narrow">
+                            <h3>California State University Northridge, <br>2023 - 2027</h3>
+                        </div>
+                        <div class="column-wide">
+                            <p>
+                                Major: Computer Science
+                            </p>
+                            <p>Accomplishments</p>
+                            <ul>
+                                <li>GPA: 3.5+</li>
+                                <li>Club Archivist for Mata Furs</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="column-wide">
-                        <p>
-                            Major: Computer Science
-                        </p>
-                        <p>Accomplishments</p>
-                        <ul>
-                            <li>GPA: 3.5+</li>
-                            <li>Club Archivist for Mata Furs</li>
-                        </ul>
-                    </div>
-                </div>
 
-                <div >
-                    <div class="column-narrow">
-                        <h3>Verdugo Hills High School, <br>2019 - 2023</h3>
-                    </div>
-                    <div class="column-wide">
-                        <p>Accomplishments</p>
-                        <ul>
-                            <li>Honor Roll x2</li>
-                            <li>Principals Honor Roll x1</li>
-                            <li>Seal of Biliteracy</li>
-                        </ul>
+                    <div >
+                        <div class="column-narrow">
+                            <h3>Verdugo Hills High School, <br>2019 - 2023</h3>
+                        </div>
+                        <div class="column-wide">
+                            <p>Accomplishments</p>
+                            <ul>
+                                <li>Honor Roll x2</li>
+                                <li>Principals Honor Roll x1</li>
+                                <li>Seal of Biliteracy</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -154,10 +160,16 @@
         <h2>Let's Keep in Touch!</h2>
         
         <!-- Social media and contact links. Add or remove any networks. -->
-        <div class="cotact-info">
-            <a href="https://sandoval.sebastian0719@gmail.com" target="_blank">sandoval.sebastian0719@gmail.com</a>
-            <a href="https://www.instagram.com/a_random_rin?stkn=NW9tcmJqZWx6OWJz" target="_blank">Instagram</a>
-            <a href="https://www.linkedin.com/in/sebastian-sandoval-56a805396" target="_blank">LinkedIn</a>
+        <div class="cotact-info" id="info">
+            <a href="mailto:sandoval.sebastian0719@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope fa-xl"></i>
+            </a>
+            <a href="https://www.instagram.com/a_random_rin?stkn=NW9tcmJqZWx6OWJz" target="_blank">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sebastian-sandoval-56a805396" target="_blank">
+                <i class="fa-brands fa-linkedin-in fa-xl"></i>
+            </a>
         </div>
 
         <p>Copyright 2026 by Sebastian S.</p>
